@@ -9,6 +9,7 @@ import Feature from "./components/Body/Feature.vue";
 import Team from "./components/Body/Team.vue";
 import Footer from "./components/Footer/Footer.vue";
 
+
 const app = createApp(App);
 
 app.component("app-header", Header);
@@ -17,4 +18,5 @@ app.component("app-carousel", Carousel);
 app.component("app-feature", Feature);
 app.component("app-team", Team);
 app.component("app-footer", Footer);
+
 app.mount("#app");

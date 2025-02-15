@@ -10,93 +10,35 @@
                     sint dolorem autem obcaecati, ipsam mollitia hic.
                 </p>
             </div>
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="../../assets/img/team-1.jpg" class="img-fluid rounded-top w-100" alt="">
-                            <div class="team-icon">
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
-                                        class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
-                                        class="fab fa-twitter"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
-                                        class="fab fa-linkedin-in"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href=""><i
-                                        class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                        <div class="team-title p-4">
-                            <h4 class="mb-0">David James</h4>
-                            <p class="mb-0">Profession</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="../../assets/img/team-2.jpg" class="img-fluid rounded-top w-100" alt="">
-                            <div class="team-icon">
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
-                                        class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
-                                        class="fab fa-twitter"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
-                                        class="fab fa-linkedin-in"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href=""><i
-                                        class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                        <div class="team-title p-4">
-                            <h4 class="mb-0">David James</h4>
-                            <p class="mb-0">Profession</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="../../assets/img/team-3.jpg" class="img-fluid rounded-top w-100" alt="">
-                            <div class="team-icon">
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
-                                        class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
-                                        class="fab fa-twitter"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
-                                        class="fab fa-linkedin-in"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href=""><i
-                                        class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                        <div class="team-title p-4">
-                            <h4 class="mb-0">David James</h4>
-                            <p class="mb-0">Profession</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="../../assets/img/team-4.jpg" class="img-fluid rounded-top w-100" alt="">
-                            <div class="team-icon">
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
-                                        class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
-                                        class="fab fa-twitter"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
-                                        class="fab fa-linkedin-in"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href=""><i
-                                        class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                        <div class="team-title p-4">
-                            <h4 class="mb-0">David James</h4>
-                            <p class="mb-0">Profession</p>
-                        </div>
-                    </div>
-                </div>
+            <div class="row justify-content-center gap-6">
+                <member-card 
+                :name="'Nasrulhaq Hidayat'" 
+                :image="'img/members/nasrul.jpg'"    
+                :role="'Developer'"
+                
+                ></member-card>
+                <member-card 
+                :image="'img/members/syahmi.jpg'" 
+                :name="'Muhammad Syahmi'"
+                :role="'Team Leader'"></member-card
+                >
+                <member-card 
+                :name="'Muhammad Zaim'" 
+                :image="'img/members/zaim.jpg'" 
+                :role="'Developer'"
+                ></member-card>
             </div>
         </div>
     </div>
     <!-- Team End -->
 </template>
+
+<script>
+import MemberCard from './Member-Card.vue';
+
+export default {
+    components: {
+        MemberCard
+    }
+};
+</script>

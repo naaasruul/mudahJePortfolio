@@ -19,13 +19,6 @@
                         <a href="about.html" class="nav-item nav-link">About</a>
 
                         <a href="contact.html" class="nav-item nav-link">Contact</a>
-                        <div class="nav-btn px-3">
-                            <button class="btn-search btn btn-primary btn-md-square rounded-circle flex-shrink-0"
-                                data-bs-toggle="modal" data-bs-target="#searchModal"><i
-                                    class="fas fa-search"></i></button>
-                            <a href="#" class="btn btn-primary rounded-pill py-2 px-4 ms-3 flex-shrink-0"> Get a
-                                Quote</a>
-                        </div>
                     </div>
                 </div>
                 <div class="d-none d-xl-flex flex-shrink-0 ps-4">
