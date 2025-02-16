@@ -15,17 +15,30 @@
                 :name="'Nasrulhaq Hidayat'" 
                 :image="'img/members/nasrul.jpg'"    
                 :role="'Developer'"
+                :twitter="'https://x.com/naaasruul'"
+                :linkedin="'www.linkedin.com/in/naaasruul'"
+                :instagram="'https://www.instagram.com/naaasruul/'"
                 
                 ></member-card>
                 <member-card 
                 :image="'img/members/syahmi.jpg'" 
                 :name="'Muhammad Syahmi'"
-                :role="'Team Leader'"></member-card
+                :role="'Team Leader'"
+                :twitter="'#'"
+                :linkedin="'#'"
+                :instagram="'https://www.instagram.com/syamiefd._/'"
+
+                
+                ></member-card
                 >
                 <member-card 
                 :name="'Muhammad Zaim'" 
                 :image="'img/members/zaim.jpg'" 
                 :role="'Developer'"
+                :twitter="'#'"
+                :linkedin="'#'"
+                :instagram="'https://www.instagram.com/2aim__/'"
+
                 ></member-card>
             </div>
         </div>
