@@ -19,7 +19,7 @@
                         </div>
                         <div class="py-md-4 mx-lg-auto">
                             <a :href="item.image">
-                                <v-img aspect-ratio="16/9" cover :src="item.image"></v-img>
+                                <v-img :height="300" aspect-ratio="16/9" contain :src="item.image"></v-img>
                             </a>
                         </div>
                     </div>
