@@ -80,7 +80,7 @@
             title: 'i-MARATECH 2024',
             place: 'At GPC Medan Mara',
             program: 'International Innovation & Exhibition Fair',
-            image:'img/awards/iiec.jpg'
+            image:'img/awards/imaratech.jpg'
           },
         ],
       }),
