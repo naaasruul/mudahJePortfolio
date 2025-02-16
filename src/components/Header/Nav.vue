@@ -16,9 +16,9 @@
                 <div class="collapse navbar-collapse " id="navbarCollapse">
                     <div class="navbar-nav mx-0 mx-lg-auto d-flex">
                         <a href="index.html" class="nav-item nav-link active">Home</a>
-                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <a href="#about-us" class="nav-item nav-link">About</a>
 
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        <a href="#team" class="nav-item nav-link">Members</a>
                     </div>
                 </div>
                 <div class="d-none d-xl-flex flex-shrink-0 ps-4">
